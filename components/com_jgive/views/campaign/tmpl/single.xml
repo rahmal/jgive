@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<fields name="request" addfieldpath="administrator/components/com_jgive/models/fields">
+		<fieldset name="request">
+			<field 
+				name="id"
+				type="modal_single" 
+				label="COM_JGIVE_SELECT_CAMP" 
+				description="COM_JGIVE_SELECT_CAMP"
+				required="true"
+			/>
+		</fieldset>
+	</fields>
+</metadata>

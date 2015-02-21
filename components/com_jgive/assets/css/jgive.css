@@ -1,0 +1,391 @@
+/*bootstrap overriding start*/
+@media (max-width: 767px) {
+	.row-fluid [class*="span"] {
+	float: none;
+	display: block;
+	width: 100% !important;
+	margin-left: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+}
+.techjoomla-bootstrap ul li {
+list-style: none outside none;
+}
+.techjoomla-bootstrap .alert {
+margin-bottom: 0px !important;
+}
+.techjoomla-bootstrap .nav-tabs > li {
+background:none !important;padding: 2px;
+}
+.techjoomla-bootstrap .nav-tabs{
+list-style-type: none !important;
+}
+.techjoomla-bootstrap .nav-tabs > li {
+margin-bottom: -1px !important;
+}
+.techjoomla-bootstrap .pager li {
+background: none repeat scroll 0 0 transparent !important;
+}
+.techjoomla-bootstrap select {
+/*added for backend paginationslect list*/
+width:192px;
+}
+.techjoomla-bootstrap textarea{
+width: 206px;
+}
+/*bootstrap overriding end*/
+
+
+/*jgive styles*/
+/*campaign-create*/
+.com_jgive_remove_button{
+position: relative;
+float: right;
+}
+.com_jgive_add_button{
+position: relative;
+float: right;
+}
+
+/*campaigns - all*/
+.com_jgive_border{
+border: 1px solid #DDDDDD !important;padding:15px;margin-bottom: 10px;
+}
+.com_jgive_campaign_title{
+font-weight:bold;
+}
+.com_jgive_campaign_image_block{
+padding-bottom: 15px;
+}
+.com_jgive_campaign_short_desc{
+float:right;text-align:justify;
+}
+.com_jgive_campaign_overview_block{
+width:50%;float:left;
+}
+.com_jgive_campaign_buttons_block{
+float:right; padding:55px 5px 25px 25px;
+}
+.com_jgive_campaign_buttons_block2{
+float:right; padding:55px 150px 25px 25px;
+}
+.com_jgive_border_ano_donor{
+float:left; border:1px solid #DDDDDD !important; padding:2px; margin:10px;
+}
+
+/*single campaign view*/
+.com_jgive_td_amt{
+text-align: right!important;
+}
+.com_jgive_td_amt_right{
+text-align: right!important;
+}
+.com_jgive_td_center{
+vertical-align: middle!important; text-align: center!important;
+}
+.com_jgive_progress_text{
+color:#000000;
+}
+/*donations - confirm*/
+.com_jgive_ajax_loading{
+text-align:center;
+}
+.com_jgive_ajax_loading_img{
+height:72px!important;width:72px!important;
+}
+.com_jgive_ajax_loading_text{
+font-weight:bold;
+}
+/*general*/
+/*alignment*/
+.com_jgive_align_center{
+text-align:center;
+}
+.com_jgive_align_right{
+text-align:right !important;
+}
+.com_jgive_justify{
+text-align:justify;
+}
+.com_jgive_float_right{
+float:right;
+}
+.com_jgive_float_left{
+float:left;
+}
+.com_jgive_clear_both{
+clear:both;
+}
+/*buttons*/
+.com_jgive_button{
+margin:5px!important;
+}
+/*image*/
+.com_jgive_img_48_48{
+height:48px!important;width:48px!important;
+}
+.com_jgive_img_72_72{
+height:72px!important;width:72px!important;
+}
+
+.com_jgive_img_96_96{
+height:96px!important;width:96px!important;
+}
+.com_jgive_img_128_128{
+height:128px!important;width:128px!important;
+}
+.com_jgive_horizontal_social_buttons{
+padding:10px 0 10px;
+}
+.reading_list_images{
+float:right!important;
+}
+.terms_condition_paymentform_div{
+margin-left:4%!important;
+}
+.submit_button_div{
+margin-left:25% !important;
+}
+.campaign_category{
+font-size: 12px !important;
+font-weight: normal!important;
+height:12px !important;
+}
+.checkout-heading {
+    background: none repeat scroll 0 0 #D9EDF7;
+    border: 1px solid #DBDEE1;
+    color: #555555;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 8px;
+}
+.checkout-heading a {
+    float: right;
+    font-weight: normal;
+    margin-top: 1px;
+    text-decoration: none;
+    cursor:pointer;
+}
+.jgive_display_none{
+	display:none;
+}
+
+.mod_jgive_pin_layout_font_weight{
+font-size:9px !important;
+}
+.jgive_pin_layout_element:hover
+{
+border-style:solid !important;
+border-color:green !important;
+padding:0px;
+}
+
+.jgive_pin_layout_element
+{
+border:2px rgb(210, 210, 210) solid !important;
+padding:0px !important;
+}
+
+.jgive_featured_campaign{
+padding:0px;
+border:2px solid orange !important;
+}
+
+ul.com_jgive_list_style_none
+{
+	list-style-type:none;
+	font-size:14px;
+	margin:0px !important;
+}
+
+li:hover
+{
+
+}
+
+.com_jgive_img_410_610{
+height:400px;
+}
+.jgive-raised
+{
+font-size: 40px;
+margin: 20px 0;
+text-transform: uppercase;
+text-align: center;
+}
+.jgive-raised-of {
+font-weight: bold;
+text-transform: uppercase;
+text-align: center;
+}
+.jgive-days, .jgive-percent {
+font-size: 20px;
+}
+.jgive-fzmfwbu {
+font-size: medium;
+text-transform: uppercase;
+font-weight: bold;
+}
+.jgive-funding-type {
+font-size: medium;
+font-weight: bold;
+}
+
+.jgive-btn-block {
+display: block;
+padding-left: 0;
+padding-right: 0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+.jgive-funding-type-info {
+padding: 10px 0px;
+font-size: x-small;
+}
+.jgive-reward:hover{
+border-color: rgb(221, 221, 221);
+z-index: 2;
+background-color: rgb(238, 238, 238);
+text-decoration: none;
+cursor:pointer;
+}
+
+
+.jgivegivback > div:first-child {
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+}
+.jgivegivback div.reward_title {
+text-transform: uppercase;
+font-weight: bold;
+color: rgb(108, 108, 108);
+cursor: text;
+border-bottom: none;
+}
+.jgivegivback > div {
+float: none;
+margin-bottom: -1px;
+border: 1px solid rgb(221, 221, 221);
+line-height: 20px;
+padding-bottom: 8px;
+padding-top: 8px;
+padding-left: 12px;
+padding-right: 12px;
+display: block;
+}
+
+.jgive-ramount {
+font-size: large;
+font-weight: bold;
+display: block;
+border-bottom: thin dashed gray;
+padding: 5px 0px;
+}
+.jgive-ramount {
+color: black;
+}
+
+.jgive-override-modal{
+position: relative !important;
+top: 0% !important;
+left: 0% !important;
+z-index: 0 !important;
+width: 0px !important;
+margin-left: 0px !important;
+border: 0px !important;
+border: 0px !important;
+-webkit-border-radius: 0px !important;
+border-radius: 0px !important;
+-webkit-box-shadow: none !important;
+box-shadow: none !important;
+-webkit-background-clip: padding-box !important;
+background-clip: padding-box!important;
+outline: none !important;
+}
+.techjoomla-bootstrap .navbar-inner{
+padding-left:0px !important;
+padding-right:0px !important;
+padding-top:0px !important;
+padding-bottom:0px !important;
+}
+.jgive-novbar-background{
+background:none !important;
+}
+.jgive_progress{
+height:5px !important;
+}
+.form-actions
+{
+	margin-top:4px!important;
+}
+.breadcrumb{
+background-color:white !important;
+}
+.techjoomla-bootstrap .nav{
+margin-bottom:0px !important;
+margin-left:0px !important;
+}
+.jgive_steps{
+margin-top:-2%;margin-right:3%;
+}
+.jgive-progressbar{
+width: 16.6667%;
+}
+.jgive_images{
+padding:1%;
+}
+.jgive_pin_div{
+margin-left:1% !important;padding:4px;height:100% !important;height:150px;
+}
+.jgive_caption{
+font-weight:bold;
+}
+.jgive_short_desc{
+min-height:60px; margin-top:5%;
+}
+.jgive_place{
+min-height:20px; margin-top:5%;
+}
+.jgive_amount{
+text-align: left;
+}
+
+.jgive_text_aling
+{
+text-align: left;
+}
+.jgive_funded{
+padding:4px;
+}
+.jgive_donation_per{
+background: #ddd;min-height: 6px;
+}
+.jgive_div_pin_padding{
+padding:4px;
+}
+.jgive_thmb_style{
+width: 100% !important;
+}
+
+.techjoomla-bootstrap div.sug_case a.modal{
+
+position: relative !important;
+margin-left: 0px !important;
+left: 0px !important;
+border:none !important;
+-webkit-box-shadow: 0px 0px !important;
+background-color: #f5f5f5 !important;
+box-shadow: none !important;
+}
+
+.jgive_filter_width{
+width:127px !important ;
+}
+
+.techjoomla-bootstrap input, select, textarea, .inputbox {
+font-size: small !important;
+}

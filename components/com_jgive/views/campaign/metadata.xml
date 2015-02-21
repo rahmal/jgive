@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<view title="Campaign">
+		<message>
+			<![CDATA[
+				Campaign view
+			]]>
+		</message>
+		<options var="layout"> 			
+			<option value="create" name="Create a new campaign" msg="Create a new campaign" />
+			<option value="single" name="Single campaign" msg="Single campaign" />
+		</options>
+	</view>
+	<!--
+	<state>
+		<name>Campaign Layout</name>
+		<description>Layouts related to a campaign</description>
+	</state>
+	-->
+</metadata>

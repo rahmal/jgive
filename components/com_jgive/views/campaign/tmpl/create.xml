@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Create New Campaign">
+		<message>
+			<![CDATA[Create New Campaign]]>
+		</message>
+	</layout>
+	<state>
+		<name>Create New Campaign</name>
+		<description>Create New Campaign</description>
+		<params>
+		</params>
+	</state>
+</metadata>

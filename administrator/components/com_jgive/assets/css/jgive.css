@@ -1,0 +1,24 @@
+.icon-48-icon-48-jgive {
+background-image:url(../images/icon-48-jgive.png)!important;
+}
+
+.setting-td input, .setting-td label {
+    display: inline;
+    float: none;
+}
+.icon-32-jgive-unfeature {
+background: url(../images/unfeature.png) no-repeat;
+}
+.icon-32-jgive-feature {
+background: url(../images/feature.png) no-repeat;
+}
+
+.paramHeaderContainer {clear:both; font-weight:bold; font-size:12px; color:#369; margin:12px 0 4px; padding:0; background:#d5e7fa; border-bottom:2px solid #96b0cb; float:left; width:100%;}
+
+/*custom elements style*/
+.jbolo_div_outer{
+clear:both;float:left;background-color:#AED300;width:100%;
+}
+.jbolo_div_inner{
+padding: 5px 5px;font-weight:bold;color:black;
+}

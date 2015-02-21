@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<view title="Donations">
+		<message>
+			<![CDATA[
+				Donations view
+			]]>
+		</message>
+		<options var="layout">
+			<option value="my" name="My Donations" msg="My donations" />
+		</options>
+	</view>
+	<!--
+	<state>
+		<name>Campaigns Layout</name>
+		<description>Layouts related to a campaigns</description>
+	</state>
+	-->
+</metadata>

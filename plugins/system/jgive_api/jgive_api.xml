@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5"  type="plugin" group="system" method="upgrade">
+
+	<name>System Plugin - jGive API development</name>
+	<author>TechJoomla</author>
+	<copyright>Techjoomla. All Rights Reserved.</copyright>
+	<authorEmail>extensions@techjoomla.com</authorEmail>
+	<authorUrl>http://www.techjoomla.com</authorUrl>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<creationDate>31st May 2014</creationDate>
+	<version>1.6.4</version>
+	<description>This system plugin uses jGive APIs to perform various functions</description>
+
+	<files>
+		<filename plugin="jgive_api">jgive_api.php</filename>
+	</files>
+
+</extension>
