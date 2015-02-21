@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5"  type="plugin" group="community" method="upgrade">
+
+	<name>plg_community_jgive</name>
+	<author>TechJoomla</author>
+	<copyright>Techjoomla.All Rights Reserved.</copyright>
+	<authorEmail>extensions@techjoomla.com</authorEmail>
+	<authorUrl>http://www.techjoomla.com</authorUrl>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<creationDate>31st May 2014</creationDate>
+	<version>1.6.4</version>
+	<isapplication>true</isapplication>
+	<!--<isbrowseable>true</isbrowseable>-->
+	<description>PLG_JGIVE_XML_DESCRIPTION</description>
+
+	<languages folder="language/en-GB">
+        <language tag="en-GB">en-GB.plg_community_jgive.ini</language>
+        <language tag="en-GB">en-GB.plg_community_jgive.sys.ini</language>
+    </languages>
+
+	<files>
+		<filename plugin="jgive">jgive.php</filename>
+	</files>
+
+
+	<menuitem>
+		<menu label="Profile" position="toolbar">
+			<link label="Profile">task=profile</link>
+		</menu>
+	</menuitem>
+	<!--
+	<positions>
+		<position>content</position>
+		<position>sidebar_top</position>
+		<position>sidebar-bottom</position>
+	</positions>
+	-->
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="count" type="text" default="3" label="PLG_JGIVE_COUNT_LBL" description="PLG_JGIVE_COUNT_DESC" />
+				<field name="cache" type="list" default="0" label="PLG_JGIVE_CACHING_LBL" description="PLG_JGIVE_CACHING_DESC">
+					<option value="0">PLG_JGIVE_NO</option>
+					<option value="1">PLG_JGIVE_YES</option>
+				</field>
+				<field name="coreapp" type="list" default="1" label="PLG_JGIVE_CORE_LBL" description="PLG_JGIVE_CORE_DESC">
+					<option value="0">PLG_JGIVE_NO</option>
+					<option value="1">PLG_JGIVE_YES</option>
+				</field>
+				<field name="position" type="list" default="sidebar-top" label="PLG_JGIVE_POSITION_LBL" description="PLG_JGIVE_POSITION_LBL">
+					<option value="content">Main content</option>
+					<option value="sidebar-top">Sidebar top</option>
+					<option value="sidebar-bottom">Sidebar bottom</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>

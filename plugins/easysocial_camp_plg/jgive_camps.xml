@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="apps" group="user">
+	<name>Campaigns</name>
+	<author>TechJoomla</author>
+	<element>jgive_camps</element>
+	<url>http://www.techjoomla.com</url>
+	<creationDate>31st May 2014</creationDate>
+	<version>1.6.4</version>
+	<copyright>Techjoomla. All Rights Reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<installable>true</installable>
+	<core>true</core>
+	<widget>true</widget>
+	<description><![CDATA[APP_STORE_PRODUCTS_APP_DESCRIPTION]]></description>
+	<files>
+		<folder>assets</folder>
+		<folder>config</folder>
+		<folder>themes</folder>
+		<folder>widgets</folder>
+		<file>story.js</file>
+		<file>jgive_camps.php</file>
+		<file>jgive_camps.xml</file>
+	</files>
+
+	<languages>
+		<language type="en-GB">en-GB.plg_app_user_jgive_camps.ini</language>
+	</languages>
+
+	<updates>
+		<version></version>
+		<patch></patch>
+	</updates>
+</social>

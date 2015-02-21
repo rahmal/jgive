@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="My Donations">
+		<message>
+			<![CDATA[My Donations]]>
+		</message>
+	</layout>
+	<state>
+		<name>My Donations</name>
+		<description>My Donations</description>
+		<params>
+		</params>
+	</state>
+</metadata>
