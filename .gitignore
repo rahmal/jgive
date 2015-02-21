@@ -1,0 +1,12 @@
+log/*
+*.tmproj
+*.log
+*.swp
+*.sqlite3
+*.*~
+*~
+.bundle
+.DS_Store
+nohup.out
+notes.txt
+Thumbs.db
